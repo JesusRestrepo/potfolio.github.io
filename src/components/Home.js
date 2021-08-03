@@ -37,7 +37,7 @@ const Home = (props)=> {
 const Home = (props) => {
     return(
         <React.Fragment>
-            <div className="container mt-3">
+            <div className="container mt-2">
                 <div className="row row-cols-1 row-cols-sm-2 row-cols">
                     <div className="colname mt-5">
                         <h1 className="name">JESUS DAVID</h1>
