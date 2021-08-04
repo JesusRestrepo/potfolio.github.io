@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Contact from './Contact';
+import Perfil from './perfil.jpg';
 
 /*practica con pipe
 const Home = (props)=> {
@@ -40,11 +41,18 @@ const Home = (props) => {
             <div className="container mt-2">
                 <div className="row row-cols-1 row-cols-sm-2 row-cols">
                     <div className="colname mt-5">
-                        <h1 className="name">JESUS DAVID</h1>
-                        <h1 className="surname">RESTREPO DIAZ</h1>
-                        <h4>WEB DEVELOPER ( junior )</h4>
-                        <p>Back end and front end</p>
-                        <a className="btn btn-primary mt-2 mb-3" Link to={Contact} role="button">Contact me</a>
+                        <div className="row row-cols-1 row-cols-sm-2 row-cols">
+                            <div className="colinformacion">
+                                <h1 className="name">JESUS DAVID</h1>
+                                <h1 className="surname">RESTREPO DIAZ</h1>
+                                <h4>WEB DEVELOPER ( junior )</h4>
+                                <p>Back end and front end</p>
+                                <a className="btn btn-primary mt-2 mb-3" Link to={Contact} role="button">Contact me</a>
+                            </div>
+                            <div className="colinformacion mb-2 mt-2">
+                                <img className="perfil" src={Perfil} />
+                            </div>
+                        </div>
                     </div>
                     <div className="coll mt-5">
                         <img className="img" src="https://www.duna.cl/media/2018/07/cursos-sobre-programacion.jpg" />

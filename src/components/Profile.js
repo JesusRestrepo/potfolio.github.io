@@ -63,7 +63,7 @@ const Profile = ()=> {
                     </div>
                     <div className="col">
                         <div className="about">
-                            <img className="program" src="https://i.blogs.es/04b04a/maxresdefault-50/840_560.jpeg" />
+                            <img className="program" src="https://www.wallpapertip.com/wmimgs/24-246645_programming-languages-wallpaper-hd.jpg" />
                         </div>
                         <h2 className="title">ABOUT</h2>
                         <div>

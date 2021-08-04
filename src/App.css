@@ -1,6 +1,6 @@
 .App {
   background-color: black;
-  padding-bottom: 3%;
+  padding-bottom: 10%;
   width: 100%;
   height: auto;
   color: aliceblue;
@@ -8,7 +8,7 @@
 
 .img{
   width: 90%;
-  height: 400px;
+  height: 450px;
 }
 
 .name{
@@ -33,6 +33,12 @@
     margin-left: 50%;
     width: 100%;
   }
+}
+
+.perfil{
+  width: 100%;
+  border-radius: 200px;
+  height: 300px;
 }
 
 .edit{
@@ -156,11 +162,16 @@
   padding-bottom: 3%;
 }
 
+.contenedor{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
 @media screen and (max-width:400px) {
 
   .img{
-    width: 100%;
-    height: 200px;
+    display: none;
   }
 
   .info{
@@ -172,5 +183,17 @@
     text-align: center;
     margin-top: 5%;
   }
+
+  .perfil{
+    width: 85%;
+  }
+
+  .contenedor{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  
 
 }

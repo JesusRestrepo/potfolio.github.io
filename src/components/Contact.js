@@ -4,7 +4,7 @@ const Contact = ()=> {
 
     return(
         
-        <div className="container mt-5">
+        <div className="contenedor mt-5">
             <div className="nombre mt-4">
                 <p>Nombre</p>
                 <div className="form-group">
