@@ -40,7 +40,7 @@ const Home = (props) => {
         <React.Fragment>
             <div className="container mt-2">
                 <div className="row row-cols-1 row-cols-sm-2 row-cols">
-                    <div className="colname mt-5">
+                    <div className="colname">
                         <div className="row row-cols-1 row-cols-sm-2 row-cols">
                             <div className="colinformacion">
                                 <h1 className="name">JESUS DAVID</h1>
@@ -54,7 +54,7 @@ const Home = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="coll mt-5">
+                    <div className="coll">
                         <img className="img" src="https://www.duna.cl/media/2018/07/cursos-sobre-programacion.jpg" />
                     </div>
                 </div>

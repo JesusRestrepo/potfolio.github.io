@@ -103,12 +103,17 @@
 }
 
 .colname{
+  margin-top: 4%;
   color: black;
   background-color: white;
   padding-top: 6%;
   padding-bottom: 2%;
   height: auto;
   text-align: center;
+}
+
+.coll{
+  margin-top: 4%;
 }
 
 .col1{
@@ -168,6 +173,10 @@
   margin-right: 25%;
 }
 
+.colinformacion{
+  margin-top: 5%;
+}
+
 @media screen and (max-width:400px) {
 
   .img{
@@ -192,6 +201,14 @@
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
+  }
+
+  .colinformacion{
+    margin-top: 0;
+  }
+
+  .colname{
+    margin-top: 0;
   }
 
   
