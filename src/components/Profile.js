@@ -68,14 +68,14 @@ const Profile = ()=> {
                         <h2 className="title">ABOUT</h2>
                         <div>
                             <p className="description">
-                                Me considero una persona responsable, capaz de adaptarme en cualquier entorno, comunicativo. Me gusta ser una persona a la
-                                cual le gusta afrontar retos que aparezcan a lo largo de mi vida, por lo cual, me gusta estar preparandome siempre para
-                                poder dar el todo de mí en el momento que sea requerido, me gusta poner mi conocimiento al servicio de los demás, para 
-                                lograr un progreso.
+                            I consider myself a responsible person, capable of adapting to any environment, communicative. I like to be a person who 
+                            likes to face challenges that appear throughout my life, for which, I like to always be preparing
+                            myself to be able to give my all at the time it is required, I like to put my knowledge to the service of others, 
+                            to achieve progress.
                             </p>
                             <p className="description">
-                                En el ámbito profesional, me desempeño como desarrollador web (Junior), con conocimientos en HTML, CSS, JAVASCRIPT y REACT.JS 
-                                en la parte de Front end, y en la parte del Back end, tengo conocimientos en Python, usando el framework Flask.
+                                In the professional field, I work as a web developer (Junior), with knowledge in HTML, CSS, JAVASCRIPT and REACT.JS
+                                In the Front end part, and in the Back end part, I have knowledge of Python, using the Flask framework.
                             </p>
                         </div>
                     </div>
