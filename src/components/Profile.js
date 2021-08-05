@@ -90,7 +90,7 @@ const Profile = ()=> {
                                     <h5 className="card-title">Calculadora IMC</h5>
                                     <p className="card-text">Aplicación para conocer el Indice de Masa Corporal de las personas, clasificando resultados en tabla y dando una breve 
                                     definición de lo que quiere decir el rango en el que se ubica.</p>
-                                    <a href="#" className="btn btn-primary">Ir al proyecto</a>
+                                    <a href="https://jesusrestrepo.github.io/" target="_blank" className="btn btn-primary">Ir al proyecto</a>
                                 </div>
                             </div>
                         </div>
@@ -101,7 +101,7 @@ const Profile = ()=> {
                                     <h5 className="card-title">Juego infantil piedra, papel o tijera</h5>
                                     <p className="card-text">Pequeño juego infantil en el cual, se juega contra la computadora, tiene 3 opciones, piedra, papel o tijera, de acuerdo 
                                     a lo que escojas y escoja la com, te dice si ganaste o perdiste.</p>
-                                    <a href="#" className="btn btn-primary">Ir al proyecto</a>
+                                    <a href="https://jesusrestrepo.github.io/game.github.io/" target="_blank" className="btn btn-primary">Ir al proyecto</a>
                                 </div>
                             </div>
                         </div>

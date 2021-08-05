@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Contact from './Contact';
 import Perfil from './perfil.jpg';
 
 /*practica con pipe
@@ -47,7 +46,7 @@ const Home = (props) => {
                                 <h1 className="surname">RESTREPO DIAZ</h1>
                                 <h4>WEB DEVELOPER ( junior )</h4>
                                 <p>Back end and front end</p>
-                                <a className="btn btn-primary mt-2 mb-3" Link to={Contact} role="button">Contact me</a>
+                                <a className="btn btn-primary mt-2 mb-3" onClick={props.onClick} role="button">Contact me</a>
                             </div>
                             <div className="colinformacion mb-2 mt-2">
                                 <img className="perfil" src={Perfil} />
