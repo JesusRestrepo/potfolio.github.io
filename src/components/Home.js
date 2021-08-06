@@ -45,7 +45,7 @@ const Home = (props) => {
                                 <h1 className="name">JESUS DAVID</h1>
                                 <h1 className="surname">RESTREPO DIAZ</h1>
                                 <h4>WEB DEVELOPER ( junior )</h4>
-                                <p>Back end and front end</p>
+                                <p className="back">Back end and front end</p>
                                 <a className="btn btn-primary mt-2 mb-3" onClick={props.onClick} role="button">Contact me</a>
                             </div>
                             <div className="colinformacion mb-2 mt-2">

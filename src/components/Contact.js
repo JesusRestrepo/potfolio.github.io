@@ -6,9 +6,23 @@ const Contact = ()=> {
         <React.Fragment>
 
             <div className="contenedor-contact">
-                <h1 className="contact">Contact Me</h1>
-                <h3 className="description-contact">For a better and effective contact,</h3>
-                <h3 className="description-contact">please contact me through the following social networks</h3>
+                <div className="informacion">
+                    <h1 className="contact">Contact Me</h1>
+                    <h3 className="description-contact">For a better and effective contact,</h3>
+                    <h3 className="description-contact">please contact me through the following social networks</h3>
+                </div>
+            </div>
+
+            <div className="contenedor mt-5">
+                <h3>Ubicación</h3>
+                <h3>Facebook</h3>
+                <h3>WhatsApp</h3>
+                <h3>github</h3>
+                <h3>LinkedIn</h3>
+            </div>
+
+            <div className="separador mt-5">
+                Formulario de Contacto
             </div>
 
             <div className="contenedor mt-5">
@@ -46,7 +60,8 @@ const Contact = ()=> {
                             placeholder="Correo"
                         />
                     </div>
-                </div>  
+                </div> 
+                <button>Enviar</button> 
             </div>
         </React.Fragment>
     )
