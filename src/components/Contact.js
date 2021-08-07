@@ -17,9 +17,11 @@ const Contact = ()=> {
             buttons: [
                 {
                     label: 'Yes',
-                    onClick: window.location.reload(true)
-                  },
-
+                    onClick: () => {
+                        alert('Sent successfully');
+                        window.location.reload(true);
+                    }
+                },
                   {
                     label: 'No'
                   }
