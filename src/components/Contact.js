@@ -1,10 +1,34 @@
 import React from 'react';
+import { confirmAlert } from 'react-confirm-alert';
+import 'react-confirm-alert/src/react-confirm-alert.css';
+
 
 const Contact = ()=> {
+    const confirmar = () => {
 
+        const refresh = () => {
+            alert('send');
+            window.location.reload(true);
+        }
+
+        confirmAlert({
+            title: 'Confirm to submit',
+            message: 'Are you sure to do this.',
+            buttons: [
+                {
+                    label: 'Yes',
+                    onClick: window.location.reload(true)
+                  },
+
+                  {
+                    label: 'No'
+                  }
+            ]
+        });
+    };
+    
     return(
         <React.Fragment>
-
             <div className="contenedor-contact">
                 <div className="informacion">
                     <h1 className="contact">Contact Me</h1>
@@ -61,7 +85,7 @@ const Contact = ()=> {
                         />
                     </div>
                 </div> 
-                <button>Enviar</button> 
+                <button onClick={ confirmar }>Enviar</button> 
             </div>
         </React.Fragment>
     )

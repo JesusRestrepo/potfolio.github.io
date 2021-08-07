@@ -195,7 +195,19 @@
 .contact{
   text-align: center;
   font-weight: bold;
+  animation-delay: 0s;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
+
+  @keyframes slidein {
+    from{
+      margin-top: 50%;
+      width: 90%;
+    }
+  }
+
+
 
 .description-contact{
   text-align: center;
