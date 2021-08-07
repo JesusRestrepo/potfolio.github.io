@@ -2,7 +2,6 @@ import React from 'react';
 import { confirmAlert } from 'react-confirm-alert';
 import 'react-confirm-alert/src/react-confirm-alert.css';
 
-
 const Contact = ()=> {
     const confirmar = () => {
 
@@ -87,10 +86,11 @@ const Contact = ()=> {
                         />
                     </div>
                 </div> 
-                <button onClick={ confirmar }>Enviar</button> 
+                <button onClick={ confirmar }>Submit</button>
             </div>
+            
         </React.Fragment>
-    )
+    );
 }
 
 
