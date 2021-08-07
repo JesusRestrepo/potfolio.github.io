@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/potfolio.github.io/static/css/main.882f8ffc.chunk.css",
-    "main.js": "/potfolio.github.io/static/js/main.3663e7dd.chunk.js",
-    "main.js.map": "/potfolio.github.io/static/js/main.3663e7dd.chunk.js.map",
-    "runtime-main.js": "/potfolio.github.io/static/js/runtime-main.8d81b800.js",
-    "runtime-main.js.map": "/potfolio.github.io/static/js/runtime-main.8d81b800.js.map",
-    "static/js/2.d3fe6ec3.chunk.js": "/potfolio.github.io/static/js/2.d3fe6ec3.chunk.js",
-    "static/js/2.d3fe6ec3.chunk.js.map": "/potfolio.github.io/static/js/2.d3fe6ec3.chunk.js.map",
-    "static/js/3.918ce3e3.chunk.js": "/potfolio.github.io/static/js/3.918ce3e3.chunk.js",
-    "static/js/3.918ce3e3.chunk.js.map": "/potfolio.github.io/static/js/3.918ce3e3.chunk.js.map",
+    "main.css": "/potfolio.github.io/static/css/main.9c80c484.chunk.css",
+    "main.js": "/potfolio.github.io/static/js/main.f83278fe.chunk.js",
+    "main.js.map": "/potfolio.github.io/static/js/main.f83278fe.chunk.js.map",
+    "runtime-main.js": "/potfolio.github.io/static/js/runtime-main.94bf83a6.js",
+    "runtime-main.js.map": "/potfolio.github.io/static/js/runtime-main.94bf83a6.js.map",
+    "static/css/2.11d356fb.chunk.css": "/potfolio.github.io/static/css/2.11d356fb.chunk.css",
+    "static/js/2.26eb115e.chunk.js": "/potfolio.github.io/static/js/2.26eb115e.chunk.js",
+    "static/js/2.26eb115e.chunk.js.map": "/potfolio.github.io/static/js/2.26eb115e.chunk.js.map",
+    "static/js/3.a93e7920.chunk.js": "/potfolio.github.io/static/js/3.a93e7920.chunk.js",
+    "static/js/3.a93e7920.chunk.js.map": "/potfolio.github.io/static/js/3.a93e7920.chunk.js.map",
     "index.html": "/potfolio.github.io/index.html",
-    "static/css/main.882f8ffc.chunk.css.map": "/potfolio.github.io/static/css/main.882f8ffc.chunk.css.map",
-    "static/js/2.d3fe6ec3.chunk.js.LICENSE.txt": "/potfolio.github.io/static/js/2.d3fe6ec3.chunk.js.LICENSE.txt",
+    "static/css/2.11d356fb.chunk.css.map": "/potfolio.github.io/static/css/2.11d356fb.chunk.css.map",
+    "static/css/main.9c80c484.chunk.css.map": "/potfolio.github.io/static/css/main.9c80c484.chunk.css.map",
+    "static/js/2.26eb115e.chunk.js.LICENSE.txt": "/potfolio.github.io/static/js/2.26eb115e.chunk.js.LICENSE.txt",
     "static/media/img.12c180d8.png": "/potfolio.github.io/static/media/img.12c180d8.png",
     "static/media/img2.85a5f137.png": "/potfolio.github.io/static/media/img2.85a5f137.png",
     "static/media/perfil.4ae29d5b.jpg": "/potfolio.github.io/static/media/perfil.4ae29d5b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8d81b800.js",
-    "static/js/2.d3fe6ec3.chunk.js",
-    "static/css/main.882f8ffc.chunk.css",
-    "static/js/main.3663e7dd.chunk.js"
+    "static/js/runtime-main.94bf83a6.js",
+    "static/css/2.11d356fb.chunk.css",
+    "static/js/2.26eb115e.chunk.js",
+    "static/css/main.9c80c484.chunk.css",
+    "static/js/main.f83278fe.chunk.js"
   ]
 }
