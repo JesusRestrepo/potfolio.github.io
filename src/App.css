@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
 .App {
   background-color: black;
   padding-bottom: 10%;
@@ -146,6 +148,7 @@
 
 .description{
   text-align: justify;
+  font-family: 'Inconsolata', monospace;
 }
 
 .card-title{
@@ -193,6 +196,7 @@
 }
 
 .contact{
+  font-family: 'Lobster', cursive;
   text-align: center;
   font-weight: bold;
   animation-delay: 0s;
@@ -212,15 +216,19 @@
 .description-contact{
   text-align: center;
   color: gray;
+  font-family: 'Style Script', cursive;
+  font-size: 3rem;
 }
 
 .separador{
   background-color: white;
   color: black;
   width: 100%;
-  height: auto;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  height: 2px;
+}
+
+.redes{
+  font-family: 'Teko', sans-serif;
 }
 
 @media screen and (max-width:400px) {
@@ -259,6 +267,10 @@
 
   .informacion{
     margin-left: 8%;
+  }
+
+  .description-contact{
+    font-size: 2rem;
   }
   
 

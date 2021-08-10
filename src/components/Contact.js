@@ -39,15 +39,14 @@ const Contact = ()=> {
             </div>
 
             <div className="contenedor mt-5">
-                <h3>Ubicación</h3>
-                <h3>Facebook</h3>
-                <h3>WhatsApp</h3>
-                <h3>github</h3>
-                <h3>LinkedIn</h3>
+                <h3 className="redes">Ubicación: Medellin, Antioquia, Colombia.</h3>
+                <h3 className="redes">Facebook</h3>
+                <h3 className="redes">WhatsApp: +57 317-3617622</h3>
+                <h3 className="redes">github</h3>
+                <h3 className="redes">LinkedIn</h3>
             </div>
 
             <div className="separador mt-5">
-                Formulario de Contacto
             </div>
 
             <div className="contenedor mt-5">
@@ -86,7 +85,7 @@ const Contact = ()=> {
                         />
                     </div>
                 </div> 
-                <button onClick={ confirmar }>Submit</button>
+                <a className="btn btn-primary mt-2 mb-3" onClick={confirmar} role="button">Submit</a>
             </div>
             
         </React.Fragment>
