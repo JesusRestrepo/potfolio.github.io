@@ -2,13 +2,11 @@ import React from 'react';
 import { confirmAlert } from 'react-confirm-alert';
 import 'react-confirm-alert/src/react-confirm-alert.css';
 
+
+import { Button, Label } from 'reactstrap';
+
 const Contact = ()=> {
     const confirmar = () => {
-
-        const refresh = () => {
-            alert('send');
-            window.location.reload(true);
-        }
 
         confirmAlert({
             title: 'Confirm to submit',
@@ -50,7 +48,7 @@ const Contact = ()=> {
             </div>
 
             <div className="contenedor mt-5">
-                <div className="nombre mt-4">
+            <div className="nombre mt-4">
                     <p>Nombre</p>
                     <div className="form-group">
                         <input
@@ -85,7 +83,7 @@ const Contact = ()=> {
                         />
                     </div>
                 </div> 
-                <a className="btn btn-primary mt-2 mb-3" onClick={confirmar} role="button">Submit</a>
+                <Button className="button mt-5" onClick={confirmar} color="primary" role="button">Submit</Button>
             </div>
             
         </React.Fragment>
