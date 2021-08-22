@@ -231,6 +231,10 @@
   font-family: 'Teko', sans-serif;
 }
 
+.form{
+  margin-top: 5%;
+}
+
 @media screen and (max-width:400px) {
 
   .img{

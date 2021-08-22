@@ -3,9 +3,11 @@ import { confirmAlert } from 'react-confirm-alert';
 import 'react-confirm-alert/src/react-confirm-alert.css';
 
 
-import { Button, Label } from 'reactstrap';
+
+import { Form, FormGroup, Input, Label, Button } from 'reactstrap';
 
 const Contact = ()=> {
+
     const confirmar = () => {
 
         confirmAlert({
@@ -25,7 +27,7 @@ const Contact = ()=> {
             ]
         });
     };
-    
+
     return(
         <React.Fragment>
             <div className="contenedor-contact">
@@ -48,42 +50,21 @@ const Contact = ()=> {
             </div>
 
             <div className="contenedor mt-5">
-            <div className="nombre mt-4">
-                    <p>Nombre</p>
-                    <div className="form-group">
-                        <input
-                            type="text"
-                            name="nombre"
-                            className="form-control"
-                            placeholder="Nombre"
-                        />
-                    </div>
-                </div>
-
-                <div className="apellido mt-4">
-                    <p>Apellido</p>
-                    <div className="form-group">
-                        <input
-                            type="text"
-                            name="apellido"
-                            className="form-control"
-                            placeholder="Apellido"
-                        />
-                    </div>
-                </div>
-
-                <div className="correo mt-4">
-                    <p>Correo</p>
-                    <div className="form-group">
-                        <input
-                            type="text"
-                            name="correo"
-                            className="form-control"
-                            placeholder="Correo"
-                        />
-                    </div>
-                </div> 
-                <Button className="button mt-5" onClick={confirmar} color="primary" role="button">Submit</Button>
+                <Form>
+                    <FormGroup className="form">
+                        <Label for="name">Nombre</Label>
+                        <Input type="text" name="name" id="form" placeholder="Nombre" />
+                    </FormGroup>
+                    <FormGroup className="form">
+                        <Label for="surname">Apellido</Label>
+                        <Input type="text" name="surname" id="form" placeholder="Apellido" />
+                    </FormGroup>
+                    <FormGroup className="form">
+                        <Label for="exampleEmail">Email</Label>
+                        <Input type="email" name="email" id="form" placeholder="Email" />
+                    </FormGroup>
+                    <Button className="button mt-5" onClick={confirmar} color="primary" role="button">Submit</Button>
+                </Form>
             </div>
             
         </React.Fragment>
