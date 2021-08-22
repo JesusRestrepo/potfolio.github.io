@@ -1,15 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { confirmAlert } from 'react-confirm-alert';
 import 'react-confirm-alert/src/react-confirm-alert.css';
-
-
 
 import { Form, FormGroup, Input, Label, Button } from 'reactstrap';
 
 const Contact = ()=> {
 
-    const confirmar = () => {
+    const [datos, setDatos] = useState({
+        name:'',
+        surname:'',
+        email:''
+    })
 
+const handleInputChange = (event) => {
+    console.log(event.target.value);
+    setDatos({
+        ...datos,
+        [event.target.name]:event.target.value
+    })
+}
+
+const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log("nombre: "+ datos.name+" "+"apellido: "+datos.surname+" "+"Email: "+datos.email);
+}
+
+    /*const confirmar = () => {
         confirmAlert({
             title: 'Confirm to submit',
             message: 'Are you sure to do this.',
@@ -18,7 +34,7 @@ const Contact = ()=> {
                     label: 'Yes',
                     onClick: () => {
                         alert('Sent successfully');
-                        window.location.reload(true);
+                        window.location.reload(false);
                     }
                 },
                   {
@@ -26,7 +42,7 @@ const Contact = ()=> {
                   }
             ]
         });
-    };
+    };*/
 
     return(
         <React.Fragment>
@@ -50,20 +66,20 @@ const Contact = ()=> {
             </div>
 
             <div className="contenedor mt-5">
-                <Form>
+                <Form onSubmit={handleSubmit}>
                     <FormGroup className="form">
                         <Label for="name">Nombre</Label>
-                        <Input type="text" name="name" id="form" placeholder="Nombre" />
+                        <Input type="text" name="name" onChange={handleInputChange} id="form" placeholder="Nombre" />
                     </FormGroup>
                     <FormGroup className="form">
                         <Label for="surname">Apellido</Label>
-                        <Input type="text" name="surname" id="form" placeholder="Apellido" />
+                        <Input type="text" name="surname" onChange={handleInputChange} id="form" placeholder="Apellido" />
                     </FormGroup>
                     <FormGroup className="form">
                         <Label for="exampleEmail">Email</Label>
-                        <Input type="email" name="email" id="form" placeholder="Email" />
+                        <Input type="email" name="email" onChange={handleInputChange} id="form" placeholder="Email" />
                     </FormGroup>
-                    <Button className="button mt-5" onClick={confirmar} color="primary" role="button">Submit</Button>
+                    <Button className="button mt-5" type="Submit" color="primary" role="button">Submit</Button>
                 </Form>
             </div>
             
