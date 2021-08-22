@@ -12,28 +12,30 @@ const Contact = ()=> {
         email:''
     })
 
-const handleInputChange = (event) => {
-    console.log(event.target.value);
-    setDatos({
-        ...datos,
-        [event.target.name]:event.target.value
-    })
-}
+    const handleInputChange = (event) => {
+        console.log(event.target.value);
+        setDatos({
+            ...datos,
+            [event.target.name]:event.target.value
+        })
+    }
 
-const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log("nombre: "+ datos.name+" "+"apellido: "+datos.surname+" "+"Email: "+datos.email);
-}
+    /*const handleSubmit = (event) => {
+        event.preventDefault();
+        console.log("nombre: "+ datos.name+" "+"apellido: "+datos.surname+" "+"Email: "+datos.email);
+    }*/
 
-    /*const confirmar = () => {
+    const handleSubmit = () => {
         confirmAlert({
             title: 'Confirm to submit',
             message: 'Are you sure to do this.',
             buttons: [
                 {
                     label: 'Yes',
-                    onClick: () => {
+                    onClick: (event) => {
+                        event.preventDefault();
                         alert('Sent successfully');
+                        console.log("nombre: "+ datos.name+" "+"apellido: "+datos.surname+" "+"Email: "+datos.email);
                         window.location.reload(false);
                     }
                 },
@@ -42,7 +44,7 @@ const handleSubmit = (event) => {
                   }
             ]
         });
-    };*/
+    };
 
     return(
         <React.Fragment>
