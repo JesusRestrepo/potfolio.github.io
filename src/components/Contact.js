@@ -6,11 +6,22 @@ import { Form, FormGroup, Input, Label, Button } from 'reactstrap';
 
 const Contact = ()=> {
 
+    const[habilitar, setHabilitar] = useState(false)
+
     const [datos, setDatos] = useState({
         name:'',
         surname:'',
         email:''
     })
+
+    React.useEffect(() => {
+        const validarNombre = datos.name.trim() === ''? false:true
+        const validarApellido = datos.surname.trim() === ''? false:true
+        const validarEmail = datos.email.trim() === ''? false:true
+        const validarTodos = validarNombre && validarEmail && validarApellido
+        setHabilitar(validarTodos)
+    }, [datos])
+
 
     const handleInputChange = (event) => {
         console.log(event.target.value);
@@ -20,20 +31,19 @@ const Contact = ()=> {
         })
     }
 
-    /*const handleSubmit = (event) => {
+    const handleSubmit = (event) => {
         event.preventDefault();
         console.log("nombre: "+ datos.name+" "+"apellido: "+datos.surname+" "+"Email: "+datos.email);
-    }*/
+    }
 
-    const handleSubmit = () => {
+    /*const handleSubmit = () => {
         confirmAlert({
             title: 'Confirm to submit',
             message: 'Are you sure to do this.',
             buttons: [
                 {
                     label: 'Yes',
-                    onClick: (event) => {
-                        event.preventDefault();
+                    onClick: () => {
                         alert('Sent successfully');
                         console.log("nombre: "+ datos.name+" "+"apellido: "+datos.surname+" "+"Email: "+datos.email);
                         window.location.reload(false);
@@ -44,7 +54,7 @@ const Contact = ()=> {
                   }
             ]
         });
-    };
+    };*/
 
     return(
         <React.Fragment>
@@ -81,7 +91,12 @@ const Contact = ()=> {
                         <Label for="exampleEmail">Email</Label>
                         <Input type="email" name="email" onChange={handleInputChange} id="form" placeholder="Email" />
                     </FormGroup>
-                    <Button className="button mt-5" type="Submit" color="primary" role="button">Submit</Button>
+                    {habilitar ? (
+                        <Button className="button mt-5" type="Submit" color="primary" role="button">Submit</Button>
+                    ):(
+                        <Button className="button mt-5" disabled type="Submit" color="primary" role="button">Submit</Button>
+                    )}
+                    
                 </Form>
             </div>
             
