@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button } from 'reactstrap';
 
-
 import Perfil from './perfil.jpg';
 
 /*practica con pipe
