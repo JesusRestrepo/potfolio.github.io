@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/potfolio.github.io/static/css/main.1b0587e5.chunk.css",
-    "main.js": "/potfolio.github.io/static/js/main.629258ee.chunk.js",
-    "main.js.map": "/potfolio.github.io/static/js/main.629258ee.chunk.js.map",
+    "main.css": "/potfolio.github.io/static/css/main.0e718ee0.chunk.css",
+    "main.js": "/potfolio.github.io/static/js/main.c1fa9226.chunk.js",
+    "main.js.map": "/potfolio.github.io/static/js/main.c1fa9226.chunk.js.map",
     "runtime-main.js": "/potfolio.github.io/static/js/runtime-main.a448d33d.js",
     "runtime-main.js.map": "/potfolio.github.io/static/js/runtime-main.a448d33d.js.map",
     "static/css/2.a80ead24.chunk.css": "/potfolio.github.io/static/css/2.a80ead24.chunk.css",
-    "static/js/2.7a11d232.chunk.js": "/potfolio.github.io/static/js/2.7a11d232.chunk.js",
-    "static/js/2.7a11d232.chunk.js.map": "/potfolio.github.io/static/js/2.7a11d232.chunk.js.map",
+    "static/js/2.bfea2539.chunk.js": "/potfolio.github.io/static/js/2.bfea2539.chunk.js",
+    "static/js/2.bfea2539.chunk.js.map": "/potfolio.github.io/static/js/2.bfea2539.chunk.js.map",
     "static/js/3.7a9376e8.chunk.js": "/potfolio.github.io/static/js/3.7a9376e8.chunk.js",
     "static/js/3.7a9376e8.chunk.js.map": "/potfolio.github.io/static/js/3.7a9376e8.chunk.js.map",
     "index.html": "/potfolio.github.io/index.html",
     "static/css/2.a80ead24.chunk.css.map": "/potfolio.github.io/static/css/2.a80ead24.chunk.css.map",
-    "static/css/main.1b0587e5.chunk.css.map": "/potfolio.github.io/static/css/main.1b0587e5.chunk.css.map",
-    "static/js/2.7a11d232.chunk.js.LICENSE.txt": "/potfolio.github.io/static/js/2.7a11d232.chunk.js.LICENSE.txt",
+    "static/css/main.0e718ee0.chunk.css.map": "/potfolio.github.io/static/css/main.0e718ee0.chunk.css.map",
+    "static/js/2.bfea2539.chunk.js.LICENSE.txt": "/potfolio.github.io/static/js/2.bfea2539.chunk.js.LICENSE.txt",
     "static/media/img.12c180d8.png": "/potfolio.github.io/static/media/img.12c180d8.png",
     "static/media/img2.85a5f137.png": "/potfolio.github.io/static/media/img2.85a5f137.png",
     "static/media/img3.9e0528b6.png": "/potfolio.github.io/static/media/img3.9e0528b6.png",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.a448d33d.js",
     "static/css/2.a80ead24.chunk.css",
-    "static/js/2.7a11d232.chunk.js",
-    "static/css/main.1b0587e5.chunk.css",
-    "static/js/main.629258ee.chunk.js"
+    "static/js/2.bfea2539.chunk.js",
+    "static/css/main.0e718ee0.chunk.css",
+    "static/js/main.c1fa9226.chunk.js"
   ]
 }
