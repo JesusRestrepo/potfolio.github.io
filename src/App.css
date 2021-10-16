@@ -196,6 +196,12 @@
   margin-right: 25%;
 }
 
+.contRedes{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
 .colinformacion{
   margin-top: 5%;
 }
@@ -243,6 +249,7 @@
 }
 
 .redes{
+  width: 100%;
   font-family: 'Teko', sans-serif;
 }
 
@@ -254,7 +261,7 @@
   position: -ms-page;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:800px) {
 
   .img{
     display: none;
@@ -275,13 +282,14 @@
   }
 
   .contenedor{
-    width: 100%;
-  }
-
-  .contenedor3{
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
+  }
+
+  .contRedes{
+    width: 100%;
+    margin: 8%;
   }
 
   .colinformacion{

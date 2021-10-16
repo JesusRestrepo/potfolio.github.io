@@ -49,7 +49,7 @@ const Contact = ()=> {
                 </div>
             </div>
 
-            <div className="contenedor mt-5">
+            <div className="contRedes mt-5">
                 <h3 className="redes">Ubicación: Medellin, Antioquia, Colombia.</h3>
                 <h3 className="redes">WhatsApp:<a href="https://api.whatsapp.com/send?phone=573173617622">+57(317)-361-7622</a> </h3>
             </div>
@@ -58,7 +58,6 @@ const Contact = ()=> {
             </div>
 
             <div className="contenedor mt-5">
-                <div className="contenedor3">
                     <Form onSubmit={handleSubmit}>
                     <FormGroup className="form">
                         <Label for="name">Nombre</Label>
@@ -80,10 +79,6 @@ const Contact = ()=> {
                     
                 </Form>
                 </div>
-                
-            </div>
-
-            <WhatsAppWidget phoneNumber='573173617622' message='hola, en que te puedo colaborar' />
             
         </React.Fragment>
     );
