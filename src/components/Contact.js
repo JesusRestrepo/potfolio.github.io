@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { confirmAlert } from 'react-confirm-alert';
 import 'react-confirm-alert/src/react-confirm-alert.css';
+import WhatsAppWidget from 'react-whatsapp-widget'
+import 'react-whatsapp-widget/dist/index.css'
+import '../App.css';
 
 import { Form, FormGroup, Input, Label, Button } from 'reactstrap';
 
@@ -36,26 +39,6 @@ const Contact = ()=> {
         console.log("nombre: "+ datos.name+" "+"apellido: "+datos.surname+" "+"Email: "+datos.email);
     }
 
-    /*const handleSubmit = () => {
-        confirmAlert({
-            title: 'Confirm to submit',
-            message: 'Are you sure to do this.',
-            buttons: [
-                {
-                    label: 'Yes',
-                    onClick: () => {
-                        alert('Sent successfully');
-                        console.log("nombre: "+ datos.name+" "+"apellido: "+datos.surname+" "+"Email: "+datos.email);
-                        window.location.reload(false);
-                    }
-                },
-                  {
-                    label: 'No'
-                  }
-            ]
-        });
-    };*/
-
     return(
         <React.Fragment>
             <div className="contenedor-contact">
@@ -68,17 +51,15 @@ const Contact = ()=> {
 
             <div className="contenedor mt-5">
                 <h3 className="redes">Ubicación: Medellin, Antioquia, Colombia.</h3>
-                <h3 className="redes">Facebook</h3>
-                <h3 className="redes">WhatsApp: +57 317-3617622</h3>
-                <h3 className="redes">github</h3>
-                <h3 className="redes">LinkedIn</h3>
+                <h3 className="redes">WhatsApp:<a href="https://api.whatsapp.com/send?phone=573173617622">+57(317)-361-7622</a> </h3>
             </div>
 
             <div className="separador mt-5">
             </div>
 
             <div className="contenedor mt-5">
-                <Form onSubmit={handleSubmit}>
+                <div className="contenedor3">
+                    <Form onSubmit={handleSubmit}>
                     <FormGroup className="form">
                         <Label for="name">Nombre</Label>
                         <Input type="text" name="name" onChange={handleInputChange} id="form" placeholder="Nombre" />
@@ -98,7 +79,11 @@ const Contact = ()=> {
                     )}
                     
                 </Form>
+                </div>
+                
             </div>
+
+            <WhatsAppWidget phoneNumber='573173617622' message='hola, en que te puedo colaborar' />
             
         </React.Fragment>
     );

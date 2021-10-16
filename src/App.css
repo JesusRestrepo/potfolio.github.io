@@ -61,7 +61,7 @@
 
 .edit2{
   background-color: blue;
-  width: 50%;
+  width: 60%;
   padding-left: 5%;
   animation-duration: 3s;
   animation-name: slideinn;
@@ -77,6 +77,21 @@
 .edit3{
   background-color: blue;
   width: 65%;
+  padding-left: 5%;
+  animation-duration: 3s;
+  animation-name: slideinn;
+}
+
+@keyframes slideinn {
+  from{
+    margin-right: 50%;
+    width: 100%;
+  }
+}
+
+.edit5{
+  background-color: blue;
+  width: 50%;
   padding-left: 5%;
   animation-duration: 3s;
   animation-name: slideinn;
@@ -235,6 +250,10 @@
   margin-top: 5%;
 }
 
+.whatsapp{
+  position: -ms-page;
+}
+
 @media screen and (max-width:400px) {
 
   .img{
@@ -256,6 +275,10 @@
   }
 
   .contenedor{
+    width: 100%;
+  }
+
+  .contenedor3{
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
