@@ -5,6 +5,7 @@ import img from './img.png';
 import img2 from './img2.png';
 import img3 from './img3.png';
 import img5 from './img5.png';
+import img6 from './img6.png';
 
 const Profile = ()=> {
     return(
@@ -132,10 +133,21 @@ const Profile = ()=> {
                             <div className="card">
                                 <img src={img5} className="card-img-top" alt="..."/>
                                 <div className="card-body">
-                                    <h5 className="card-title">Sitio web de ventas online (en construcción).</h5>
-                                    <p className="card-text">Pequeño sitio web de una pequeña compañía para vender productos como gadgets tecnólogicos
-                                    por medio online, con medio de pago, etc.</p>
+                                    <h5 className="card-title">Pagina de administración de venta de vehiculos.</h5>
+                                    <p className="card-text">Pequeña pagina de adminsitración de venta de vehiculos
+                                    creado con react.js y MongoDB para su base de datos, junto con express en back-end.</p>
                                     <Button href="https://thawing-inlet-43435.herokuapp.com/" color="primary" target="_blank" className="button">Ir al proyecto</Button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col7">
+                            <div className="card">
+                                <img src={img6} className="card-img-top" alt="..."/>
+                                <div className="card-body">
+                                    <h5 className="card-title">Play! (en construcción).</h5>
+                                    <p className="card-text">Página de películas, ideal para consultar películas nuevas, puntuaciones,
+                                    entre muchas otras cosas más.</p>
+                                    <Button href="https://young-taiga-97143.herokuapp.com/" color="primary" target="_blank" className="button">Ir al proyecto</Button>
                                 </div>
                             </div>
                         </div>
